@@ -3,11 +3,6 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
     ssr: false,
-    nitro: {
-        output: {
-            publicDir: "dist",
-        }
-    },
     devtools: { enabled: true },
     build: {
         transpile: ["vuetify"],
