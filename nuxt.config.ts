@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     ssr: false,
     nitro: {
         output: {
-            publicDir: "docs",
+            publicDir: "dist",
         }
     },
     devtools: { enabled: true },
